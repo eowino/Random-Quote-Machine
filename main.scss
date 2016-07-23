@@ -1,0 +1,88 @@
+$current-color : #64b5f6;
+$current-color-darken : darken($current-color, 20%);
+$current-color-darken-2 : darken($current-color, 25%);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.current-color {
+	background-color: $current-color;
+}
+
+body{
+	@extend .current-color;
+	color: #4a148c;
+	min-width: 748px;
+}
+
+footer p {
+	text-align: center;
+	margin: 0 auto;
+	padding: 6px;
+	width: 80px;
+	border: 1px solid transparent;
+	font-weight: 600;
+	background-color: #fff;
+	border-radius: 5px;
+	border-color: blue;
+	opacity: .2;
+	&:hover {
+		opacity: 1;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+//**** Buttons
+
+.btn:hover {
+	background-color: $current-color-darken;
+}
+
+.btn:active {
+	background-color: $current-color-darken-2;
+}
+
+//**** Font Awesome
+
+.fa-twitter:before{
+	font-size: 28px;
+}
+
+.fa-quote-left:before {
+	font-size: 28px;
+	position: relative;
+	top: 20px;
+	right: 35px;
+
+}
+/////******** 
+
+//**** Quote Area
+
+.quote-area {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 1%;
+	margin: 15% auto 5% auto;
+	width: 70%;
+}
+
+.quote-content {
+	padding: 1% 10%;
+	font-size: 18px;
+}
+
+.controls {
+	background-color: #fff;
+	height: 40px;
+	margin-top: 16px;
+}
+
+cite {
+	font-weight: 600;
+}

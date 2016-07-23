@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Random Quote Machine</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="quote-area">
+			<div class="quote-content">
+				<span class="fa fa-quote-left" aria-label="quote"></span>
+				<div class="message">{{ Quote Here }}</div>
+				<cite id="author">{{author name}}</cite>
+			</div>
+			<div class="controls">
+				<a href="{{tweet}}" id="tweetQuote" class="btn btn-primary pull-left current-color" target="_blank">
+					<span class="fa fa-twitter" aria-label="Twitter Icon - Tweet Quote"><span class="sr-only">Tweet</span></span>
+				</a>
+				<button type="button" id="nextQuoteBtn" class="btn btn-primary btn-lg pull-right current-color">Next Quote</button>
+			</div>
+		</div>
+		<footer>
+			<p><a href="http://codepen.io/evonzz/#">By Evans</a></p>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="/app.js"></script>
+</body>
+</html>
