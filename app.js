@@ -1,31 +1,10 @@
 "use strict";
 var sourceObj;
 var colours = [
-"#ffcdd2",
-"#f8bbd0",
-"#e1bee7",
-"#ede7f6",
-"#e8eaf6",
-"#bbdefb",
-"#8c9eff",
-"#82b1ff",
-"#b2dfdb",
-"#80cbc4",
-"#64ffda",
-"#1de9b6",
-"#e6ee9c",
-"#81c784",
-"#ff5722",
-"#6d4c41",
-"#ff6f00",
-"#00e676",
-"#00e5ff",
-"#004d40",
-"#ad1457",
-"#ff8a80",
-"#ff1744",
-"#7986cb",
-"#0277bd"
+	"#ffcdd2","#f8bbd0","#e1bee7","#ede7f6","#e8eaf6","#bbdefb","#8c9eff",
+	"#82b1ff","#b2dfdb","#80cbc4","#64ffda","#1de9b6","#e6ee9c","#81c784",
+	"#ff5722","#6d4c41","#ff6f00","#00e676","#00e5ff","#004d40","#ad1457",
+	"#ff8a80","#ff1744","#7986cb","#0277bd"
 ];
 
 var storeQuotes = function() {
